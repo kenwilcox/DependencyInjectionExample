@@ -46,6 +46,8 @@
 		BE9790E41B3CF5340054A352 /* Minion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Minion.swift; sourceTree = "<group>"; };
 		BE9790E61B3CF5C20054A352 /* MinionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionService.swift; sourceTree = "<group>"; };
 		BE9790E81B3CFCBB0054A352 /* FakeMinionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeMinionService.swift; sourceTree = "<group>"; };
+		BE9790EE1B3CFF530054A352 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		BE9790EF1B3CFF530054A352 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,8 @@
 		BE9790B41B3CF3330054A352 = {
 			isa = PBXGroup;
 			children = (
+				BE9790EE1B3CFF530054A352 /* LICENSE.md */,
+				BE9790EF1B3CFF530054A352 /* README.md */,
 				BE9790BF1B3CF3330054A352 /* DependencyInjectionExample */,
 				BE9790D51B3CF3330054A352 /* DependencyInjectionExampleTests */,
 				BE9790BE1B3CF3330054A352 /* Products */,
