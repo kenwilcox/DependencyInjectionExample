@@ -82,11 +82,5 @@ class DependencyInjectionExampleTests: XCTestCase {
       }
     }
   }
-  
-  
-  /*
-  case .Failure(let error):
-  XCTFail(error.localizedDescription);
-  }
-  */
+
 }
