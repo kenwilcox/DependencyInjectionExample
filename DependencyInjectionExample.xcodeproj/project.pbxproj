@@ -15,6 +15,11 @@
 		BE9790D91B3CF3330054A352 /* DependencyInjectionExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9790D81B3CF3330054A352 /* DependencyInjectionExampleTests.swift */; };
 		BE9790E51B3CF5340054A352 /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9790E41B3CF5340054A352 /* Minion.swift */; };
 		BE9790E71B3CF5C20054A352 /* MinionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9790E61B3CF5C20054A352 /* MinionService.swift */; };
+		BE9790E91B3CFCBB0054A352 /* FakeMinionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9790E81B3CFCBB0054A352 /* FakeMinionService.swift */; };
+		BE9790EA1B3CFCCA0054A352 /* MinionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9790E61B3CF5C20054A352 /* MinionService.swift */; };
+		BE9790EB1B3CFCD30054A352 /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9790E41B3CF5340054A352 /* Minion.swift */; };
+		BE9790EC1B3CFD160054A352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9790C61B3CF3330054A352 /* Main.storyboard */; };
+		BE9790ED1B3CFE660054A352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9790C41B3CF3330054A352 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,7 @@
 		BE9790D81B3CF3330054A352 /* DependencyInjectionExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionExampleTests.swift; sourceTree = "<group>"; };
 		BE9790E41B3CF5340054A352 /* Minion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Minion.swift; sourceTree = "<group>"; };
 		BE9790E61B3CF5C20054A352 /* MinionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionService.swift; sourceTree = "<group>"; };
+		BE9790E81B3CFCBB0054A352 /* FakeMinionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeMinionService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				BE9790D81B3CF3330054A352 /* DependencyInjectionExampleTests.swift */,
+				BE9790E81B3CFCBB0054A352 /* FakeMinionService.swift */,
 				BE9790D61B3CF3330054A352 /* Supporting Files */,
 			);
 			path = DependencyInjectionExampleTests;
@@ -208,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9790EC1B3CFD160054A352 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE9790ED1B3CFE660054A352 /* ViewController.swift in Sources */,
+				BE9790E91B3CFCBB0054A352 /* FakeMinionService.swift in Sources */,
+				BE9790EB1B3CFCD30054A352 /* Minion.swift in Sources */,
 				BE9790D91B3CF3330054A352 /* DependencyInjectionExampleTests.swift in Sources */,
+				BE9790EA1B3CFCCA0054A352 /* MinionService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
