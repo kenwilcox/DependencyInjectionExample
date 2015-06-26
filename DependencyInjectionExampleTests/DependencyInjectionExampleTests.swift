@@ -58,4 +58,17 @@ class DependencyInjectionExampleTests: XCTestCase {
     }
   }
   
+  func testMinionsAreDifferent() {
+    let minionService = MinionService()
+    minionService.getTheMinions { (data) -> Void in
+      switch(data) {
+      case .Success(let minionsData):
+        XCTAssertEqual(minionsData.count, 2, "Didn't get the minions")
+        XCTAssertEqual(false, minionsData[0] == minionsData[1], "The minions are the same")
+      default:
+        XCTAssert(true, "Pass - for this test")
+      }
+    }
+  }
+  
 }
