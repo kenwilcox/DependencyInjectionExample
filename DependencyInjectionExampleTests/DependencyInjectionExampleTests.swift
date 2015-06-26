@@ -71,4 +71,22 @@ class DependencyInjectionExampleTests: XCTestCase {
     }
   }
   
+  func testMinionsCanFail() {
+    let minionService = MinionService()
+    minionService.getTheMinions { (data) -> Void in
+      switch(data) {
+      case .Failure(let error):
+        XCTAssertEqual("Oops! The Minions are missing on a new fun adventure!", error.localizedDescription, "Wrong error message")
+      default:
+        XCTAssert(true, "Ugh...")
+      }
+    }
+  }
+  
+  
+  /*
+  case .Failure(let error):
+  XCTFail(error.localizedDescription);
+  }
+  */
 }
